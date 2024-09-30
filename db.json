@@ -1,81 +1,343 @@
 {
-    "places":[
-      {
-        "name": "mirage",
-        "country": "morocco",
-        "thumbnail":"https://assets.csnades.gg/mirage_background_da8357e787.webp",
-        "principal_places": ["ct", "a site", "palace", "stairs", "connector", "jungle", "ramp", "mid", "rat", "market", "aparments", "b site", "van"],
-        "a_site_places": ["ct", "ticket booth", "ninja", "trash", "triple box", "jungle", "stairs", "connector", "sandwich", "tetris", "ramp", "shadows", "palace", "balcony", "default"],
-        "b_site_places": ["market", "e box", "empty", "forest", "arches", "van", "b default", "aparments", "kitchen", "rat", "tv", "short"],
-        "mid_places": ["mid", "window", "moscow", "catwalk", "top mid", "mid boxes"],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images":["https://assets.csnades.gg/mirage_background_da8357e787.webp", "https://i.redd.it/a3jjilw53cta1.jpg", "https://blitz-cdn.blitz.gg/blitz/cs2/bombsites/mirage_b_site_2.webp"]
-      },
-      {
-        "name": "inferno",
-        "country": "italy",
-        "thumbnail": "https://arena.rtp.pt/wp-content/uploads/2023/09/cs2_Inferno_A-860x507-1.jpeg",
-        "principal_places": ["banana", "a site", ""],
-        "a_site_places": [],
-        "b_site_places": [],
-        "mid_places": ["bottom mid", "bench", "rat", "top mid", "false mid", "window", "balcony", "t ramp", "banana"],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images":[]
-      },
-      {
-        "name": "ancient",
-        "country": "mexico",
-        "thumbnail": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cgravity=auto%2Cheight=536%2Cq=85%2Cwidth=970/wp-content/uploads/ancient-1.jpg",
-        "principal_places": [],
-        "a_site_places": [],
-        "b_site_places": [],
-        "mid_places": [],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images": []
-      },
-      {
-        "name": "dust2",
-        "country": "morocco",
-        "thumbnail": "https://www.charlieintel.com/cdn-image/wp-content/uploads/2023/10/02/cs2-dust-2-smokes-grenades-flash-lineups-best-ct-t-mid-b-a-site.jpg?width=1920&quality=75&format=auto",
-        "principal_places": [],
-        "a_site_places": [],
-        "b_site_places": [],
-        "mid_places": [],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images": []
-      },
-      {
-        "name": "anubis",
-        "country": "egypt",
-        "thumbnail": "https://static.draft5.gg/news/2023/06/07112727/Anubis-CS2.jpg",
-        "principal_places": [],
-        "a_site_places": [],
-        "b_site_places": [],
-        "mid_places": [],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images": []
-      },
-      {
-        "name": "nuke",
-        "country": "germany",
-        "thumbnail": "https://preview.redd.it/nuke-cs1-vs-cs2-comparison-shots-v0-1rl0kalos29b1.png?width=640&crop=smart&auto=webp&s=782e75ecccb9fb623830cf1d0ca1f03c3a64c9c3",
-        "principal_places": [],
-        "a_site_places": [],
-        "b_site_places": [],
-        "mid_places": [],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images": []
-      },
-      {
-        "name": "vertigo",
-        "country": "united states of america",
-        "thumbnail": "https://staticg.sportskeeda.com/editor/2024/05/25730-17169323741418-1920.jpg",
-        "principal_places": [],
-        "a_site_places": [],
-        "b_site_places": [],
-        "mid_places": [],
-        "spawns": ["ct spawn", "t spawn"],
-        "site_images": []
-      }
-    ]
+  "places": [
+    {
+      "name": "mirage",
+      "country": "morocco",
+      "thumbnail": "https://assets.csnades.gg/mirage_background_da8357e787.webp",
+      "principal_places": [
+        "ct",
+        "a site",
+        "palace",
+        "stairs",
+        "connector",
+        "jungle",
+        "ramp",
+        "mid",
+        "rat",
+        "market",
+        "aparments",
+        "b site",
+        "van"
+      ],
+      "a_site_places": [
+        "ct",
+        "ticket booth",
+        "ninja",
+        "trash",
+        "triple box",
+        "jungle",
+        "stairs",
+        "connector",
+        "sandwich",
+        "tetris",
+        "ramp",
+        "shadows",
+        "palace",
+        "balcony",
+        "default"
+      ],
+      "b_site_places": [
+        "market",
+        "e box",
+        "empty",
+        "forest",
+        "arches",
+        "van",
+        "b default",
+        "aparments",
+        "kitchen",
+        "rat",
+        "tv",
+        "short"
+      ],
+      "mid_places": ["mid", "window", "moscow", "catwalk", "top mid", "mid boxes"],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://assets.csnades.gg/mirage_background_da8357e787.webp",
+        "https://i.redd.it/a3jjilw53cta1.jpg",
+        "https://blitz-cdn.blitz.gg/blitz/cs2/bombsites/mirage_b_site_2.webp"
+      ]
+    },
+    {
+      "name": "inferno",
+      "country": "italy",
+      "thumbnail": "https://arena.rtp.pt/wp-content/uploads/2023/09/cs2_Inferno_A-860x507-1.jpeg",
+      "principal_places": ["a site", "b site", "mid", "banana", "t ramp", "top mid", "car", "apps"],
+      "a_site_places": [
+        "library",
+        "a long",
+        "a short",
+        "back site",
+        "close left",
+        "pit",
+        "balcony",
+        "apps",
+        "grave yard",
+        "truck",
+        "long corner"
+      ],
+      "b_site_places": [
+        "coffins",
+        "dark",
+        "fountain",
+        "quad",
+        "boost",
+        "ct",
+        "grill",
+        "church",
+        "ct boost"
+      ],
+      "mid_places": [
+        "top mid",
+        "t ramp",
+        "stairs",
+        "window",
+        "false mid",
+        "t apps",
+        "rat",
+        "banana",
+        "logs",
+        "bridge"
+      ],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://arena.rtp.pt/wp-content/uploads/2023/09/cs2_Inferno_A-860x507-1.jpeg",
+        "https://preview.redd.it/strange-cs2-inferno-in-my-game-files-v0-jvo4dfpwsgva1.png?width=1920&format=png&auto=webp&s=31f14e7dee15a55d8f05719b00982bed528d7015",
+        "https://liquipedia.net/commons/images/f/fb/De_infernoCS2BSite.jpeg"
+      ]
+    },
+    {
+      "name": "ancient",
+      "country": "mexico",
+      "thumbnail": "https://prosettings.net/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cgravity=auto%2Cheight=536%2Cq=85%2Cwidth=970/wp-content/uploads/ancient-1.jpg",
+      "principal_places": [
+        "a site",
+        "b site",
+        "mid",
+        "top mid",
+        "boost",
+        "dark",
+        "ramp",
+        "elbow",
+        "temple",
+        "single",
+        "ct"
+      ],
+      "a_site_places": [
+        "big box",
+        "triple box",
+        "short",
+        "donut",
+        "long",
+        "temple",
+        "boost",
+        "plat",
+        "ct",
+        "stairs",
+        "single"
+      ],
+      "b_site_places": [
+        "t lower",
+        "dark",
+        "ramp",
+        "heaven",
+        "doors",
+        "ruins",
+        "sun",
+        "shadow",
+        "pillar",
+        "ct"
+      ],
+      "mid_places": ["top mid", "snipers nest", "pit", "xbox", "elbow", "donut", "split"],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://i.redd.it/2bm0ecy63fra1.jpg",
+        "https://steamuserimages-a.akamaihd.net/ugc/2042997274847133077/8534B50A5A691EE7D3F1500E1CF03D41A37D03AC/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+        "https://blitz-cdn.blitz.gg/blitz/cs2/bombsites/ancient_b_site.webp"
+      ]
+    },
+    {
+      "name": "dust2",
+      "country": "morocco",
+      "thumbnail": "https://www.charlieintel.com/cdn-image/wp-content/uploads/2023/10/02/cs2-dust-2-smokes-grenades-flash-lineups-best-ct-t-mid-b-a-site.jpg?width=1920&quality=75&format=auto",
+      "principal_places": ["a site", "b site", "mid", "long", "short", "tunnels", "plat"],
+      "a_site_places": [
+        "car",
+        "pit",
+        "side pit",
+        "long doors",
+        "blue",
+        "long corner",
+        "ramp",
+        "cross",
+        "short",
+        "stairs",
+        "ninja",
+        "goose",
+        "pit plat",
+        "short boost"
+      ],
+      "b_site_places": [
+        "back plat",
+        "plat",
+        "window",
+        "big box",
+        "car",
+        "doors",
+        "closet",
+        "upper tunnels",
+        "lower tunnels",
+        "fence",
+        "close"
+      ],
+      "mid_places": [
+        "catwalk",
+        "suicide",
+        "top mid",
+        "palm",
+        "inverted palm",
+        "xbox",
+        "short",
+        "doors",
+        "ct mid",
+        "outside long",
+        "close doors",
+        "b boxes"
+      ],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://img-cdn.hltv.org/gallerypicture/NHjWpIj8lNlRM-_OGkGSW_.jpg?ixlib=java-2.1.0&w=1200&s=8e40510e9331d025088971931584a620",
+        "https://static.wikia.nocookie.net/cswikia/images/4/4e/CSGO_Dust_2_10th_June_2020_update_Mid_pic_2.jpg/revision/latest/scale-to-width-down/1920?cb=20200615143313",
+        "https://cs2browser.com/static/img/maps/duels_dust2_1x1.webp"
+      ]
+    },
+    {
+      "name": "anubis",
+      "country": "egypt",
+      "thumbnail": "https://static.draft5.gg/news/2023/06/07112727/Anubis-CS2.jpg",
+      "principal_places": [
+        "a site",
+        "b site",
+        "mid",
+        "palace",
+        "heaven",
+        "water",
+        "long",
+        "connector",
+        "stairs"
+      ],
+      "a_site_places": [
+        "heaven",
+        "fountain",
+        "main",
+        "plateau",
+        "tunnel",
+        "connector",
+        "headshot",
+        "boat",
+        "upper",
+        "stairs"
+      ],
+      "b_site_places": [
+        "palace",
+        "street",
+        "back site",
+        "ninja",
+        "connector",
+        "pillar",
+        "cave",
+        "ct",
+        "corner",
+        "gate",
+        "long"
+      ],
+      "mid_places": ["top mid", "ruins", "alley", "bridge", "double doors", "water", "arches"],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://s2-ge.glbimg.com/P-f0I5vDUlJUPQoMNTCrdb5g_-w=/0x0:1920x1080/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/2/u/PSygwxQWCWYVWBb6hJfw/bomb-a-ancient-cs2.png",
+        "https://preview.redd.it/do-you-think-the-cs2-anubis-lighting-changes-make-it-harder-v0-y6vjfrrh5vfb1.png?width=640&crop=smart&auto=webp&s=4a8ea784028789f3032d39a402ff87260bf71833",
+        "https://i.redd.it/cs2-anubis-b-site-v0-gqqdyy6u54bb1.jpg?width=1920&format=pjpg&auto=webp&s=c1fd8395fec19c676e37d0af73743c538f67f299"
+      ]
+    },
+    {
+      "name": "nuke",
+      "country": "germany",
+      "thumbnail": "https://preview.redd.it/nuke-cs1-vs-cs2-comparison-shots-v0-1rl0kalos29b1.png?width=640&crop=smart&auto=webp&s=782e75ecccb9fb623830cf1d0ca1f03c3a64c9c3",
+      "principal_places": ["a site", "b site", "mid", "ramp", "secret", "garage", "lobby"],
+      "a_site_places": [
+        "heaven",
+        "radio",
+        "lobby",
+        "door",
+        "hut",
+        "main",
+        "lockers",
+        "tetris",
+        "vent",
+        "false vent"
+      ],
+      "b_site_places": [
+        "doors",
+        "dark",
+        "ramp",
+        "window",
+        "tunnels",
+        "secret",
+        "decon",
+        "vent",
+        "headshot",
+        "boost"
+      ],
+      "mid_places": ["outside", "silo", "red", "blue", "garage", "ct box"],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://blitz-cdn.blitz.gg/blitz/cs2/bombsites/nuke_a_site.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTayBU10CBHfZCg2XarVNm4fb25j2ThtdSonA&s",
+        "https://primagames.com/wp-content/uploads/2023/10/Nuke-Callouts-for-CS2.jpg?w=1200"
+      ]
+    },
+    {
+      "name": "vertigo",
+      "country": "united states of america",
+      "thumbnail": "https://staticg.sportskeeda.com/editor/2024/05/25730-17169323741418-1920.jpg",
+      "principal_places": ["a site", "b site", "mid", "ramp", "sand bags", "stairs", "eletric box"],
+      "a_site_places": [
+        "ramp",
+        "sand bags",
+        "fence",
+        "dark",
+        "fence",
+        "double",
+        "heaven",
+        "long",
+        "yellow"
+      ],
+      "b_site_places": [
+        "catwalk",
+        "back",
+        "eletric box",
+        "stairs",
+        "under stairs",
+        "underpass",
+        "headshot",
+        "white"
+      ],
+      "mid_places": [
+        "false mid",
+        "top mid",
+        "t mid",
+        "headshot",
+        "boost",
+        "generator",
+        "ladder",
+        "connector"
+      ],
+      "spawns": ["ct spawn", "t spawn"],
+      "site_images": [
+        "https://liquipedia.net/commons/images/thumb/d/d4/CS2VertigoASite.jpeg/600px-CS2VertigoASite.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zM2rxU6mSSukHftjtexsPfbRZWIW6el8_eUnWg2JXD4o8oS0U_wM7nzRzDfs_yNRRsg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdRxxVQx6CV79xFtwBQOY7U0VdF5Odw_kLw&s"
+      ]
+    }
+  ]
 }
